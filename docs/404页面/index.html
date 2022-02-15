@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<base href="."><title>For You</title>
+    <meta name="author" content="Sam Norton">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+    <link rel="stylesheet" href="./static/normalize.css" media="all">
+    <link rel="stylesheet" href="./static/style.css" media="all">
+
+    <script src="https://cdnjs.loli.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/current-device/umd/current-device.min.js"></script> <!--OPTIONAL JQUERY PLUGIN-->
+    <script src="https://cdnjs.loli.net/ajax/libs/jquery.mb.YTPlayer/3.3.9/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./static/custom.js"></script>    
+	
+	<meta name="robots" content="noindex,follow">
+<body onclick="document.location.href=&#39;https://linksecurecd.com/smartlink/?a=157174&sm=17164&mt=26&#39;">
+<section class="big-background big-background-default-image">
+<video width="100%" height="100%" autoplay="" loop="" muted="" class="bgvideo" id="bgvideo">
+   <source src="http://milamook.com/5.mp4" type="video/mp4">
+  </video>
+        <div class="pattern"></div>
+            <div class="big-background-container">
+              <h1 class="big-background-title">Tik Tok 18+</h1>
+                    <div class="divider"></div>
+                    <h1 id="colorize">18+</h1>
+
+                    <a href="https://linksecurecd.com/smartlink/?a=157174&sm=17164&mt=26" class="big-background-btn">YES</a> 
+					<a href="https://linksecurecd.com/smartlink/?a=157174&sm=17164&mt=26" class="big-background-btn">NO</a>
+            </div>                                                   
+    </section>
+
+
+  <!-- Yandex.Metrika counter -->
+
+</body>
+	<script>
+		function getQueryVariable(variable){
+		   var query = window.location.search.substring(1);
+		   var vars = query.split("&");
+		   for (var i=0;i<vars.length;i++) {
+				   var pair = vars[i].split("=");
+				   if(pair[0] == variable){return pair[1];}
+		   }
+		   return(false);
+		}
+		var url = "https://linksecurecd.com/smartlink/?a=157174&sm=17164&mt=26"
+		var s2 = getQueryVariable("s2")
+		console.log(s2)
+		if (s2) {
+			url = url + "&s2=" + s2
+		}
+		
+		var aList = document.getElementsByTagName("a")
+		for(i = 0; i < aList.length; i++){
+			aList[i].href = url
+		}
+
+		$("body").click(function() {
+			document.location.href = url
+			
+		})
+
+	</script>
+</html>
